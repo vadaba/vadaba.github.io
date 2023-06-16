@@ -1,1 +1,0 @@
-# vadaba.github.io
