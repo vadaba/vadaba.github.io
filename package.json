@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "name": "backportfolio",
+  "version": "1.0.0",
+  "description": "portfolio backend",
+  "main": "port.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Av",
+  "license": "ISC"
+}

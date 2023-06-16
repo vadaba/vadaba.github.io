@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--bootsrap cdn link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+    <!------fonts awesome cdn for fonts icon css-->
+    <script src="https://kit.fontawesome.com/cc1831298d.js" crossorigin="anonymous"></script>
+
+    <!------google fonts cdn-->
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/google-sans">
+
+
+
+
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <title>Backportfolio</title>
+</head>
+
+<body>
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+
+                <a href="index.html">
+                    <h2 class="Loogoo"> <button class="btnlogin-popup"> Av.</button> </h2>
+                </a>
+
+                <nav class="navigation">
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <style>
+                        nav .togglebtn {
+                            width: 35px;
+                            height: 35px;
+                            position: absolute;
+                            top: 45px;
+                            right: 3%;
+                            z-index: 5;
+                            cursor: pointer;
+
+                        }
+
+                        nav .togglebtn span {
+                            display: block;
+                            background-color: black;
+                            margin: 5px 0px;
+                            width: 70%;
+                            height: 5px;
+                            transition: 0.3s;
+                            transition-property: transform, opacity;
+
+                        }
+
+                        nav .navlinks {
+                            list-style-type: none;
+                        }
+
+                        nav .navlinks li {
+                            display: inline-block;
+                        }
+
+                        nav .navlinks li a {
+                            color: black;
+                            margin-left: 2rem;
+                        }
+                    </style>
+
+
+                    <ul class="navlinks">
+                        <li><a href="about.html">About</a></li>
+                        <li> <a href="skills.html">Skills</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Projects</a></li>
+                    </ul>
+                    <!--
+                    <button onclick=" myFunction()"> <img src="images/1co.png"></button>                   
+                    <style>
+                        .navigation button {
+                            width: 30px;
+                            height: 30px;
+                            position: relative;
+                            border: none;
+                            bottom: 20px;
+                            left: 99px;
+                        }
+
+                        .navigation button img {
+                            width: 25px;
+                            height: 25px;
+                        }
+                    </style>
+                    
+                    <div class="darkmodetoggle">
+                        <script>
+                            function myFunction() {
+                                var element = document.body;
+                                element.classList.toggle("dark-mode");
+                            }
+                        </script>
+                    </div>-->
+
+                </nav>
+
+
+            </header>
+        </div>
+    </div>
+   
+
+    </div>
+
+
+
+    <div class="container">
+        <div class="hero-pic">
+            <img src="/images/vade.jpg" alt="profile-pic">
+        </div>
+        <div class="hero-text">
+            <span>I'm</span>
+
+            <h1>Adewole Victor</h1>
+            <h5> a <span class="multiText">Frontend Developer </span></h5>
+            <p>
+                Victor is a full stack developer, hardworking,
+                fast learner and a team player. I enjoy building everything from small sites to rich
+                interactive web
+                apps.If you have a business seeking web presence or an employer looking to hire, you can get
+                in
+                touch with me here.
+
+            </p>
+
+
+            <!---
+            <div class="btn-group">
+                <a href="#" class="btn "> Download CV</a>
+            </div>
+
+            <div class="btn-group">
+                <a href="contact.html" class="btn"> Contact </a>
+            </div>
+       -->
+
+            <div class="social">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="secondcon">
+        <style>
+            .secondcon {
+                background-image: linear-gradient(#162938, #162938, #2b485f);
+
+            }
+        </style>
+        <div class="skills">
+            <h2>Skills & Tools</h2>
+            <h1>My Tools & Things i can do</h1>
+
+            <h6>The skills, tools and technologies i use to bring your product to life</h6>
+        </div>
+
+    </div>
+    <div class="Calculator">
+        <div class="Calcon">
+            <div class="buttons">
+                <style>
+                    .buttons img {
+                        width: 100px;
+                        height: 100px;
+                    }
+
+                    .nd img {
+                        width: 100px;
+                        height: 100px;
+
+                    }
+                </style>
+
+                <button class="nd">
+                    <img src="images/html5.png">
+                    <p>HTML5</p>
+                </button>
+
+                <button class="nd">
+                    <img src="images/css3.png" alt="css3">
+                    <p> CSS3</p>
+                </button>
+
+                <button class="nd"> <img src="images/web.png" alt="web">
+                    <p> Web Accesibility</p>
+                </button>
+
+                <button class="nd"> <img src="images/icons8-react-480.png" alt="">
+                    <p>React</p>
+                </button>
+
+
+                <button class="nd">
+                    <img src="images/jquery.png" alt="jquery">
+                    <p>jQuery</p>
+                </button>
+
+                <button class="nd"> <img src="images/javascript.png" alt="js">
+                    <p>JavaScript </p>
+                </button>
+
+                <button class="nd"> <img src="images/resp.png" alt="">
+                    <p> Responsive Websites</p>
+                </button>
+
+                <button class="nd"> <img src="images/node.png" alt="">
+                    <p>Node.js </p>
+                </button>
+
+                <button class="nd"> <img src="images/icons8-vs-code-480.png" alt="">
+                    <p> VS Code</p>
+                </button>
+
+                <button class="nd"> <img src="images/icons8-github-240.png" alt="">
+                    <p>Github </p>
+                </button>
+
+                <button class="nd"> <img src="images/api.png" alt="">
+                    <p> RESTful APIs</p>
+                </button>
+
+                <button class="nd"> <img src="images/icons8-git-480.png" alt="">
+                    <p>Git </p>
+                </button>
+            </div>
+            <style>
+                .Calculator {
+                    width: 100%;
+                    height: 100%;
+                    min-height: 50vh;
+                    background: transparent;
+                    justify-content: center;
+
+                }
+
+                .Calcon {
+                    width: 900px;
+
+                    margin: 0 auto;
+
+                }
+
+                button {
+                    border: 1px solid black;
+                    border-radius: 5px;
+                    margin: 9px 10px;
+                    width: 200px;
+                    height: 200px;
+                    font-size: 15px;
+                    font-weight: 550;
+                    font-family: Arial, Helvetica, sans-serif;
+                    background: transparent;
+
+                }
+
+                .buttons {
+
+                    justify-content: space-between;
+                }
+            </style>
+            <!--- .nd {
+                        padding-top: 65px;
+                        justify-content: center;
+                        align-items: center;
+                    }-->
+
+        </div>
+    </div>
+    </div>
+
+
+    <div class="scrolling-box">
+        <section id="contact">
+            <div class="obii">
+
+
+                <div class="wrapper">
+
+                    <div class="form-box login">
+                        <h2>
+                            Get In Touch!</h2>
+                        <h3>Got a question or proposal, or just want
+                            to say hello? Go ahead.</h3>
+
+                        <form action="#">
+                            <div class="input-box">
+
+                                <input type="name" placeholder="Enter Your Name" required>
+                                <label></label>
+                            </div>
+                            <div class="input-box">
+                                <span class="icon"></span>
+                                <input type="email" placeholder="Enter Your Email Address" required>
+                                <label></label>
+                            </div>
+                            <div class="input-box">
+                                <span class="icon"></span>
+                                <input type="message" placeholder="Hi, I think we need a design system for our products at Company X. How soon can you hop on to discuss this?
+                            " required>
+                                <label></label>
+                            </div>
+
+                            <h2 class="Shoot"> <button class="btnlogin-popupp"> <a href="yungvade1@gmail.com"></a>
+                                    SHOOT
+                                    <svg width="72" height="22" viewBox="0 0 72 22" xmlns="http://www.w3.org/2000/svg"
+                                        class="bow-arrow">
+                                        <path fill="none" stroke="#4831d4" stroke-width="2" stroke-miterlimit="0"
+                                            d="M.043 11.119h70.714M60.917 1.319l9.8 9.8-9.8 9.8"></path>
+                                    </svg>
+                                </button>
+                            </h2>
+
+
+                            <footer>
+                                <p class="text-center">© Designed and Developed by<span class="Adev"> Adewole
+                                        Victor.</span></p>
+                            </footer>
+                        </form>
+                    </div>
+                </div>
+                <div class="footerimg">
+                    <img src="images/officeimg.png" alt="officeimg">
+                    <style>
+                        .footerimg {
+                            width: 80%;
+                            height: 100%;
+                            position: relative;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            background-color: blue;
+                        }
+
+
+                        img {
+                            width: 100%;
+                            height: 900px;
+
+                        }
+                    </style>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+
+    <script>
+        var typingEffect = new Typed(".multiText", {
+            strings: ["Frontend Developer", "Project Manager", "Web Developer"],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1500
+
+        })
+
+
+        var typingEffect = new Typed(".input", {
+            strings: ["Frontend Developer", "Project Manager", "Web Developer"],
+            typedspeed: 70,
+            backspeed: 55,
+            loop: true,
+            backDelay: 1200
+
+        })
+    </script>
+    <script>
+        /** Creating button show hide nav bar **/
+        var togglebtn = document.querySelector(".togglebtn");
+        var nav = document.querySelector(".navlinks");
+        var links = document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function () {
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+    </script>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="justworking.js"></script>
+
+
+</body>
+
+</html>
